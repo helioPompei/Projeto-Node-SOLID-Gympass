@@ -1,0 +1,27 @@
+# Notes
+
+## Dev dependencies 
+
+- npm i -y
+- npm i typescript @types/node tsx tsup -D
+- npx tsc --init
+
+## Prod dependencies 
+
+- npm i fastify
+- npm i dotenv
+- npm i zod 
+
+## Scripts
+
+"scripts": {
+    "start": "node build/server.js",
+    "dev": "tsx watch src/server.ts",
+    "build": "tsup src --out-dir build"
+  }
+
+## NPMRC
+
+file: .npmrc 
+content: save-exact=true
+description: Criar arquivo npmrc para fixar as versões de dependencias 
