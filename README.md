@@ -38,7 +38,7 @@ GymPass style app.
 
 ## Dev dependencies 
 
-- npm i -y
+- npm init -y
 - npm i typescript @types/node tsx tsup -D
 - npx tsc --init
 - npm i prisma -D
@@ -51,6 +51,7 @@ GymPass style app.
 - npm i zod 
 - npx prisma init / npx prisma generate / npx prisma migrate dev / npx prisma studio
 - npm i @prisma/client
+- npm i bcryptjs
 
 ## Scripts
 
